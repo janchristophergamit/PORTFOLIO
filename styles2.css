@@ -1,0 +1,139 @@
+p {
+    font-family: "Times New Roman", Georgia, Serif;
+    font-family: 'Times New Roman', Times, serif, fantasy;
+}
+
+body {
+    background-color: rgb(250, 217, 110);
+}
+
+.header2 {
+    background-color: #e8e8e8;
+    margin-bottom: 30px;
+    box-shadow: 10px 10px 5px #888888;
+    padding-bottom: 30px;
+    align-content: center;
+}
+
+.container2 {
+    width: 960px;
+    margin: 0 auto;
+    background-color: rgb(243, 174, 72);
+}
+
+
+.nav_menu {
+    list-style: none;
+     margin: 0;
+    padding: 0;
+    align-content: center;
+}
+
+.nav_menu li {
+    min-width: 8em;
+    float: left;
+    margin-right: 0.5em;
+    margin-left: 10px;
+    text-align: center;
+    align-content: center;
+}
+
+.nav_menu li a:link,
+.nav_menu li a:visited {
+    background-color: #f85d03;
+    display: block;
+    padding: 0.2em;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 0 0.2em 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    box-shadow: 3px 3px 3px 3px rgba(43, 43, 77, 0.5);
+}
+
+.nav_menu li a:hover {
+    background-color: hsl(49, 100%, 49%);
+
+    -webkit-transform: scale(2,2);
+    -ms-transform: scale(2,2);
+    transform: scale(2,2);
+}
+
+.nav_menu a {
+    display: block;
+    width: 80px;
+}
+
+.clear2 {
+    clear: both;
+}
+
+#mainBody {
+        align-content: center;
+}
+
+#welcomeDiv {
+    background-color: #e8e8e8;
+    float: center;
+    width: 95%;
+    margin-right: 20px;
+    padding: 15px;
+    margin-left: 10px;
+    margin-bottom:10px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+
+#leftDiv {
+    background-color: #e8e8e8;
+    float: left;
+    width: 45%;
+    height: 100%;
+    padding: 5px;
+    margin: 10px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+#leftDiv img {
+    max-height:200px;
+    max-width: 400px;
+    float:center;
+}
+
+#rightDiv {
+    background-color: #e8e8e8;
+    float: right;
+    width: 45%;
+    height: 100%;
+    padding: 5px;
+    margin: 10px;
+    box-shadow: 10px 10px 5px #888888;
+
+}
+#rightDiv2 {
+    background-color: #e8e8e8;
+    float: right;
+    width: 45%;
+    height: 100%;
+    padding: 5px;
+    margin: 10px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+#rightDiv img {
+    max-height:200px;
+    max-width: 400px;
+    float:center;
+}
+
+footer {
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 15px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
